@@ -146,8 +146,7 @@
         var sound = document.getElementById("punch");
         var object = document.querySelectorAll(".enemy");
         object.forEach(mini => {
-          mini.addEventListener("click", function(event) {
-            event.stopImmediatePropagation();
+          mini.addEventListener("click", function() {
             mini.style.visibility = "hidden";
             //mini.style.background="red";
 
